@@ -1,0 +1,29 @@
+body {
+  font-family: Montserrat;
+}
+
+/* блок информации о телефоне и логотип start */
+.tel-info_header {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 290px;
+  margin-bottom: 20px;
+}
+
+.header-tel {
+  margin-left: 20px;
+  font-size: 10px;
+  color: rgba(128, 128, 128, 0.5);
+}
+
+.header-tel_link {
+  font-size: 11px;
+  color: #37373f;
+}
+
+.img_header {
+  max-width: 70px;
+  max-height: 23px;
+  width: 100%;
+}
+/* блок информации о телефоне и логотип end */
