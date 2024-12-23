@@ -108,21 +108,23 @@ body {
 /* блок фотосессия start */
 
 .photoshoot_part {
+  display: flex;
   margin-left: 290px;
+  margin-bottom: 20px;
 }
 
 .photoshoot {
   font-weight: 500;
   font-size: 30px;
   color: #37373f;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .description_photoshoot {
   max-width: 550px;
   font-size: 15px;
   color: #37373f;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .photoshoot_container {
@@ -136,14 +138,14 @@ body {
 }
 
 .photoshoot-span_container {
-  margin-top: 10px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
 }
 
 .photoshoot_pics {
-  max-width: 35px;
+  max-width: 25px;
   max-height: 28px;
   margin-bottom: 10px;
 }
@@ -152,4 +154,13 @@ body {
   font-size: 10px;
   color: #37373f;
 }
+
+.youtube-lin_pic {
+  max-width: 380px;
+}
+
+.youtube-link_container {
+  margin-left: 45px;
+}
+
 /* блок фотосессия end */
