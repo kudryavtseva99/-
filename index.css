@@ -33,6 +33,7 @@ body {
 
 .banner {
   position: relative;
+  margin-bottom: 40px;
 }
 
 .img_banner {
@@ -103,3 +104,52 @@ body {
 }
 
 /* блок предложения о стоимости end */
+
+/* блок фотосессия start */
+
+.photoshoot_part {
+  margin-left: 290px;
+}
+
+.photoshoot {
+  font-weight: 500;
+  font-size: 30px;
+  color: #37373f;
+  margin-bottom: 15px;
+}
+
+.description_photoshoot {
+  max-width: 550px;
+  font-size: 15px;
+  color: #37373f;
+  margin-bottom: 20px;
+}
+
+.photoshoot_container {
+  display: flex;
+}
+
+.photoshoot-pics_container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.photoshoot-span_container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.photoshoot_pics {
+  max-width: 35px;
+  max-height: 28px;
+  margin-bottom: 10px;
+}
+
+.photoshoot_span {
+  font-size: 10px;
+  color: #37373f;
+}
+/* блок фотосессия end */
