@@ -5,13 +5,12 @@ body {
 
 .container {
   max-width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 290px;
+  margin-right: 290px;
   padding: 0 15px;
 }
 
 /* header part start */
-
 .header {
   padding: 40px 0;
 }
