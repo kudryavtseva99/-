@@ -1,31 +1,32 @@
-@import "header.css";
-@import "banner_section.css";
-@import "photoshoot_main.css";
-
 body {
   font-family: Montserrat;
   color: #ffffff;
 }
 
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
 /* header part start */
 
 .header {
-  margin-top: 40px;
-  margin-left: 290px;
-  margin-bottom: 20px;
+  padding: 40px 0;
 }
 
-.contacts__header {
+.header .container {
   display: flex;
 }
 
-.header-tel {
+.header__tel {
   margin-left: 20px;
   font-size: 10px;
   color: rgba(128, 128, 128, 0.5);
 }
 
-.header-tel-link {
+.header__contacts {
   font-size: 11px;
   color: #37373f;
 }
