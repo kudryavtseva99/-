@@ -1,11 +1,15 @@
 body {
   min-height: 600px;
   font-family: Montserrat;
-  color: black;
+  color: #37373f;
+}
+
+a {
+  color: #37373f;
 }
 
 .container {
-  max-width: 850px;
+  max-width: 820px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -28,7 +32,6 @@ body {
 
 .header__contacts {
   font-size: 11px;
-  color: #37373f;
 }
 
 .header__logo {
@@ -45,6 +48,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  margin-bottom: 50px;
 }
 
 .welcome__title {
@@ -95,12 +100,77 @@ body {
 }
 
 .welcome__button {
-  padding: 10px 30px;
+  padding: 10px 20px;
   border: 3px solid #ffffff;
   border-radius: 1px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   color: #ffffff;
 }
 
 /* banner part end */
+
+/*  photoshoot start */
+
+.photoshoot__part .container {
+  display: flex;
+  gap: 80px;
+}
+.photoshoot {
+  color: black;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.photoshoot__description {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.photoshoot__wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.photoshoot__pics-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.photoshoot__icon {
+  max-width: 22px;
+}
+.photoshoot__span-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.photoshoot_span {
+  font-size: 9px;
+}
+
+.youtube__img {
+  max-width: 350px;
+  max-height: 250px;
+}
+
+.photoshoot__top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.photoshoot__line {
+  border: 1px solid #c7c7c7;
+  margin-bottom: 10px;
+}
+
+.photoshoot__text {
+  font-size: 11px;
+}
+
+.photoshoot__img {
+  max-width: 65px;
+}
+
+/*  photoshoot end */
