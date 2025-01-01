@@ -197,7 +197,6 @@ a {
   align-items: center;
   gap: 7px;
 
-  padding: 0 320px;
   margin-bottom: 15px;
 
   color: #5286ec;
@@ -208,6 +207,11 @@ a {
 
 .gallery__svg {
   max-width: 6px;
+}
+
+.gallery__btn-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 /*  photoshoot end */
