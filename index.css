@@ -149,7 +149,7 @@ a {
 }
 
 .youtube__img {
-  max-width: 350px;
+  max-width: 370px;
   max-height: 250px;
 }
 
@@ -171,6 +171,43 @@ a {
 
 .photoshoot__img {
   max-width: 65px;
+}
+
+/* .photoshoot__gallery .container {
+  max-width: 750px;
+} */
+
+.gallery {
+  font-size: 12px;
+}
+.photoshoot__gallery-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.gallery__pics {
+  margin: 0;
+  max-width: 170px;
+}
+
+.gallery__btn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  padding: 0 320px;
+  margin-bottom: 15px;
+
+  color: #5286ec;
+  font-size: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.gallery__svg {
+  max-width: 6px;
 }
 
 /*  photoshoot end */
