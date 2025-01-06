@@ -420,7 +420,7 @@ a {
 .feedback__name-flex {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 7px;
 }
 
 .feedback__stars-flex {
@@ -472,4 +472,22 @@ a {
 .feedback__line {
   border: 0.5px solid #c7c7c7;
 }
+
+.feedback__btn {
+  font-size: 10px;
+  font-weight: 500;
+  color: #5286ec;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.feedback__btn-wrapper {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 40px;
+}
+
 /* feedback end */
