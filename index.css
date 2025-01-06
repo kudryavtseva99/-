@@ -351,7 +351,7 @@ a {
   background-size: cover;
   background-position: center;
 
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .map__wrapper {
@@ -395,3 +395,81 @@ a {
 }
 
 /* map end */
+
+/* feedback start */
+
+.feedback__span {
+  font-size: 12px;
+  font-weight: 500;
+}
+.feedback__wrapper {
+  margin-top: 30px;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+
+  margin-bottom: 35px;
+}
+.feedback__wrapper-add {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.feedback__name-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.feedback__stars-flex {
+  display: flex;
+  gap: 70px;
+}
+
+.feedback__span-add {
+  display: flex;
+  gap: 5px;
+}
+
+.feedback__desc-flex {
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feedback__svg {
+  max-width: 50px;
+}
+.feedback__name {
+  font-size: 12px;
+  font-weight: 500;
+}
+.feedback__job {
+  font-size: 9px;
+}
+.feedback__stars {
+  max-width: 60px;
+}
+.feedback__checkmark {
+  max-width: 10px;
+}
+.feedback__text {
+  font-size: 9px;
+  color: #b3b3b3;
+}
+.feedback_desc {
+  max-width: 380px;
+  font-size: 12px;
+}
+.feedback__date {
+  font-size: 9px;
+  color: #b3b3b3;
+}
+
+.feedback__line {
+  border: 0.5px solid #c7c7c7;
+}
+/* feedback end */
