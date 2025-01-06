@@ -341,3 +341,55 @@ a {
   margin-top: 40px;
 }
 /* date end */
+
+/* map start */
+
+.map {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.map__wrapper {
+  padding: 30px 25px;
+  position: absolute;
+  top: 10%;
+  max-width: 290px;
+  max-height: 300px;
+  border: 1px solid #c7c7c7;
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.map__flex-wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.map__svg {
+  max-width: 40px;
+}
+
+.map__span {
+  font-size: 12px;
+  font-weight: 500;
+}
+.map__span-answer {
+  font-size: 11px;
+}
+
+.map__span-add {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  margin-top: 5px;
+}
+.map__btn {
+  color: #5286ec;
+  font-size: 9px;
+}
+
+/* map end */
