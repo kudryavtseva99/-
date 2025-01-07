@@ -288,7 +288,7 @@ a {
   margin-top: 15px;
   max-width: 500px;
   border: 1px solid #c7c7c7;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .date__time-wrapper {
@@ -491,3 +491,55 @@ a {
 }
 
 /* feedback end */
+
+/* social media start */
+
+.social__media-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.social__media-svg {
+  max-width: 90px;
+}
+
+.social__media-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+}
+
+.social_info {
+  display: flex;
+  gap: 30px;
+}
+
+/* social media end */
+
+/* footer start */
+.footer {
+  background-color: #faf9f8;
+}
+
+.footer__wrapper {
+  padding-bottom: 15px;
+  display: flex;
+  gap: 250px;
+}
+
+.card {
+  max-width: 25px;
+}
+
+.footer__cards {
+  display: flex;
+  gap: 12px;
+}
+
+.footer__info {
+  font-size: 10px;
+  color: #b3b3b3;
+}
+/* footer end */
