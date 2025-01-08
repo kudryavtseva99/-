@@ -543,3 +543,135 @@ a {
   color: #b3b3b3;
 }
 /* footer end */
+
+/* modal start */
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgb(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  visibility: hidden;
+  opacity: 0;
+
+  transition: opacity 0.4s, visibility 0.4s;
+}
+
+.modal.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__window {
+  max-width: 400px;
+  padding: 20px 35px;
+  border-radius: 3px;
+  background-color: #ffffff;
+
+  transform: scale(0);
+  transition: transform 0.8s;
+}
+
+.modal.open .modal__window {
+  transform: scale(1);
+}
+
+.modal__btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal__close-svg {
+  max-width: 55px;
+}
+
+.modal__booking {
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+input {
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 11px;
+  /* margin-bottom: 5px; */
+}
+
+input[type="date"] {
+  background: url(./img/date__orange__svg.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 97%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+label {
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.required {
+  color: red;
+}
+
+.first__name::placeholder {
+  color: #37373f;
+}
+.last__name::placeholder {
+  color: #37373f;
+}
+.card__expiry-cvv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.modal__flex-text {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.modal__svg {
+  padding: 3px 2px;
+  max-width: 15px;
+  max-height: 15px;
+  border-radius: 2px;
+  background-color: #fc9b09;
+}
+.modal__text {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.modal__button-flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.modal__btn {
+  padding: 15px 90px;
+  border: 1px solid #fc9b09;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+  background-color: #fc9b09;
+  font-weight: 600;
+}
+
+/* modal end */

@@ -532,5 +532,104 @@
         </div>
       </div>
     </footer>
+    <div class="modal">
+      <div class="modal__window">
+        <div class="modal__btn-wrapper">
+          <button class="modal__close-btn">
+            <img
+              src="./img/slim_cross_icon.svg"
+              alt="закрыть"
+              class="modal__close-svg"
+            />
+          </button>
+        </div>
+        <h2 class="modal__booking">Бронирование</h2>
+        <form class="model__content">
+          <label for="date">Дата<span class="required">*</span></label>
+          <input
+            type="date"
+            name="date"
+            class="date"
+            value="2019-09-14"
+            required
+          />
+          <br />
+          <label for="email">Email<span class="required">*</span></label>
+          <input
+            type="email"
+            name="email"
+            class="email"
+            placeholder="Электронная почта"
+            required
+          />
+          <br />
+          <label for="first-name">Имя<span class="required">*</span></label>
+          <input
+            type="text"
+            name="name"
+            class="first__name"
+            placeholder="Иван"
+            required
+          />
+          <br />
+          <label for="last-name">Фамилия<span class="required">*</span></label>
+          <input
+            type="text"
+            name="surname"
+            class="last__name"
+            placeholder="Громов"
+            required
+          />
+          <br />
+          <label for="phone">Телефон<span class="required">*</span></label>
+          <input
+            type="tel"
+            name="phone"
+            class="phone"
+            placeholder="+7 (905) 184-81-40"
+            required
+          />
+          <br />
+
+          <label for="card-info"
+            >Данные карты<span class="required">*</span>
+            <!-- <div class="card-details"> -->
+            <input
+              type="text"
+              name="card-number"
+              class="card__number"
+              placeholder="Номер карты"
+              required
+            />
+            <!-- </div> -->
+            <div class="card__expiry-cvv">
+              <input
+                type="text"
+                name="expiry-date"
+                class="expiry__date"
+                placeholder="Срок действия"
+                required
+              />
+              <input
+                type="text"
+                name="cvv"
+                class="cvv"
+                placeholder="CVV"
+                required
+              />
+            </div>
+          </label>
+        </form>
+        <div class="modal__flex-text">
+          <img src="./img/Vector 3.1.svg" alt="галочка" class="modal__svg" />
+          <p class="modal__text">
+            Я согласен с пользовательским соглашением и публичной офертой
+          </p>
+        </div>
+        <div class="modal__button-flex">
+          <button type="submit" class="modal__btn">Забронировать</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
