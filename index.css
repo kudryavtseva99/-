@@ -605,7 +605,11 @@ input {
   width: 100%;
   padding: 5px 10px;
   font-size: 11px;
-  /* margin-bottom: 5px; */
+  margin-bottom: 5px;
+}
+
+input:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 input[type="date"] {
@@ -620,8 +624,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 label {
+  display: block;
   font-size: 11px;
   font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .required {

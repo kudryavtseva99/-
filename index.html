@@ -590,35 +590,34 @@
             required
           />
           <br />
-
           <label for="card-info"
             >Данные карты<span class="required">*</span>
-            <!-- <div class="card-details"> -->
+          </label>
+          <!-- <div class="card-details"> -->
+          <input
+            type="text"
+            name="card-number"
+            class="card__number"
+            placeholder="Номер карты"
+            required
+          />
+          <!-- </div> -->
+          <div class="card__expiry-cvv">
             <input
               type="text"
-              name="card-number"
-              class="card__number"
-              placeholder="Номер карты"
+              name="expiry-date"
+              class="expiry__date"
+              placeholder="Срок действия"
               required
             />
-            <!-- </div> -->
-            <div class="card__expiry-cvv">
-              <input
-                type="text"
-                name="expiry-date"
-                class="expiry__date"
-                placeholder="Срок действия"
-                required
-              />
-              <input
-                type="text"
-                name="cvv"
-                class="cvv"
-                placeholder="CVV"
-                required
-              />
-            </div>
-          </label>
+            <input
+              type="text"
+              name="cvv"
+              class="cvv"
+              placeholder="CVV"
+              required
+            />
+          </div>
         </form>
         <div class="modal__flex-text">
           <img src="./img/Vector 3.1.svg" alt="галочка" class="modal__svg" />
