@@ -7,6 +7,18 @@
   display: none;
 }
 
+.welcome__title-mobile {
+  display: none;
+}
+
+.photoshoot__wrapper-mobile {
+  display: none;
+}
+
+.photoshoot__svg-mobile {
+  display: none;
+}
+
 body {
   min-height: 600px;
   font-family: Montserrat;
@@ -741,8 +753,8 @@ label {
   }
 
   .container {
-    /* max-width: 320px; */
-    padding: 0 40px;
+    max-width: 500px;
+    padding: 0 15px;
   }
 
   .header .container {
@@ -761,13 +773,20 @@ label {
     max-width: 25px;
   }
   .welcome {
-    /* height: 100vh; */
+    height: 100vh;
     background-position: 60%;
   }
 
   .welcome__title {
+    display: none;
+  }
+
+  .welcome__title-mobile {
+    display: block;
     font-size: 45px;
     margin-bottom: 45px;
+    color: #ffffff;
+    font-weight: bold;
   }
 
   .welcome__img-suggestion {
@@ -794,8 +813,77 @@ label {
     max-width: 85px;
   }
   .welcome__button {
-    padding: 25px 50px;
+    padding: 32px 80px;
     border-radius: 7px;
     font-size: 17px;
+  }
+  .photoshoot__wrapper {
+    display: none;
+  }
+  .youtube__link {
+    display: none;
+  }
+
+  .photoshoot__wrapper-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .photoshoot {
+    font-size: 28px;
+  }
+  .youtube__img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .photoshoot__description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .photoshoot__part .container {
+    display: block;
+  }
+  .photoshoot__svg-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .svg__mobile-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .span__mobile {
+    font-size: 15px;
+  }
+  .mobile__lines {
+    margin-top: 15px;
+  }
+  .photoshoot__line {
+    margin-top: 0px;
+  }
+
+  .mobile__top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .photoshoot__text {
+    font-size: 13px;
+  }
+  .photoshoot__img {
+    max-width: 90px;
+  }
+  .photoshoot__icon {
+    max-width: 90px;
+    margin-top: -10px;
+  }
+  .photoshoot__top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
   }
 }
