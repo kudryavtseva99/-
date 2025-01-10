@@ -1,3 +1,12 @@
+/* скрытые элементы в декстопной версии */
+.header__text {
+  display: none;
+}
+
+.header__svg-profile {
+  display: none;
+}
+
 body {
   min-height: 600px;
   font-family: Montserrat;
@@ -720,3 +729,73 @@ label {
 }
 
 /* modal end */
+
+/* mobile part */
+
+@media (max-width: 500px) {
+  .header__tel {
+    display: none;
+  }
+  .header__contacts {
+    display: none;
+  }
+
+  .container {
+    /* max-width: 320px; */
+    padding: 0 40px;
+  }
+
+  .header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header__text {
+    display: inline-block;
+    font-size: 15px;
+    color: #5286ec;
+  }
+  .header__svg-profile {
+    display: block;
+    max-width: 25px;
+  }
+  .welcome {
+    /* height: 100vh; */
+    background-position: 60%;
+  }
+
+  .welcome__title {
+    font-size: 45px;
+    margin-bottom: 45px;
+  }
+
+  .welcome__img-suggestion {
+    width: 250px;
+  }
+
+  .welcome__suggestion {
+    max-width: 250px;
+    margin-bottom: 10px;
+  }
+
+  .welcome__price {
+    margin-top: -6px;
+    margin-left: 5px;
+  }
+
+  .welcome__cost {
+    font-size: 25px;
+  }
+  .welcome__rubles {
+    font-size: 35px;
+  }
+  .welcome__img-procent {
+    max-width: 85px;
+  }
+  .welcome__button {
+    padding: 25px 50px;
+    border-radius: 7px;
+    font-size: 17px;
+  }
+}
