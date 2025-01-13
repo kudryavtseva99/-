@@ -19,6 +19,14 @@
   display: none;
 }
 
+.photoshoot__gallery-mobile {
+  display: none;
+}
+
+.organizer__mobile-wrapper {
+  display: none;
+}
+
 body {
   min-height: 600px;
   font-family: Montserrat;
@@ -813,7 +821,7 @@ label {
     max-width: 85px;
   }
   .welcome__button {
-    padding: 32px 80px;
+    padding: 32px 76px;
     border-radius: 7px;
     font-size: 17px;
   }
@@ -849,6 +857,7 @@ label {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 25px;
   }
   .svg__mobile-wrapper {
     display: flex;
@@ -886,4 +895,79 @@ label {
     align-items: flex-start;
     gap: 5px;
   }
+
+  .photoshoot__gallery {
+    display: none;
+  }
+  .photoshoot__gallery-mobile {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .photoshoot__gallery-mobile .container {
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel__countainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+  }
+
+  .gallery {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .gallery__pics {
+    border-radius: 4px;
+    width: 350px;
+  }
+
+  .organizer {
+    display: none;
+  }
+
+  .organizer__mobile-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+  }
+
+  .organizer__photo {
+    max-width: 135px;
+  }
+
+  .organizer__name {
+    font-size: 18px;
+  }
+
+  .organizer__profession {
+    font-size: 15px;
+  }
+
+  .organizer__btn {
+    font-size: 12px;
+  }
+
+  .organizer__pic {
+    max-width: 65px;
+  }
+
+  .organizer__introduction {
+    font-size: 16px;
+  }
+
+  .organizer__desc {
+    font-size: 13px;
+  }
+
+  /* .organizer__wrapper {
+    max-width: 80%;
+  } */
 }
