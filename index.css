@@ -27,6 +27,14 @@
   display: none;
 }
 
+.date__price-mobile {
+  display: none;
+}
+
+.date__top-mobile {
+  display: none;
+}
+
 body {
   min-height: 600px;
   font-family: Montserrat;
@@ -866,6 +874,7 @@ label {
   }
   .span__mobile {
     font-size: 15px;
+    font-weight: 500;
   }
   .mobile__lines {
     margin-top: 15px;
@@ -874,19 +883,20 @@ label {
     margin-top: 0px;
   }
 
-  .mobile__top {
+  /* .mobile__top {
     display: flex;
     align-items: center;
     gap: 15px;
-  }
+  } */
   .photoshoot__text {
-    font-size: 13px;
+    font-size: 15px;
   }
   .photoshoot__img {
     max-width: 90px;
   }
   .photoshoot__icon {
     max-width: 90px;
+    margin-right: 10px;
     margin-top: -10px;
   }
   .photoshoot__top {
@@ -967,7 +977,72 @@ label {
     font-size: 13px;
   }
 
-  /* .organizer__wrapper {
-    max-width: 80%;
-  } */
+  .date__appointment {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    /* margin-bottom: 15px; */
+  }
+
+  .date__price {
+    display: none;
+  }
+
+  .date__price-mobile {
+    display: block;
+    font-weight: 500;
+  }
+
+  .date__btn-svg {
+    display: none;
+  }
+
+  .date__wrapper {
+    max-width: 290px;
+  }
+
+  .date .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .date__time-wrapper {
+    justify-content: center;
+  }
+
+  .date__time {
+    font-size: 18px;
+  }
+
+  .date__btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .date__price-wrapper {
+    margin-bottom: 15px;
+  }
+
+  .date__deckstop {
+    display: none;
+  }
+
+  .date__top-mobile {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .feedback__date-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
 }
