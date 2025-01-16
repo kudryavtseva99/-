@@ -1045,4 +1045,15 @@ label {
     flex-direction: column;
     gap: 5px;
   }
+
+  .map .container {
+    display: none;
+  }
+
+  .map {
+    background-image: url("./img/Снимок\ экрана\ 2019-08-29\ в\ 7.54.png");
+    height: 60vh;
+    padding: 0;
+    margin-bottom: 25px;
+  }
 }
