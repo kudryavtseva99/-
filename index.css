@@ -35,6 +35,10 @@
   display: none;
 }
 
+.map_info {
+  display: none;
+}
+
 body {
   min-height: 600px;
   font-family: Montserrat;
@@ -1046,7 +1050,7 @@ label {
     gap: 5px;
   }
 
-  .map .container {
+  .map__wrapper {
     display: none;
   }
 
@@ -1055,5 +1059,94 @@ label {
     height: 60vh;
     padding: 0;
     margin-bottom: 25px;
+  }
+
+  .map_info {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .map_info .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .map__flex-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #c7c7c7;
+    width: 300px;
+    display: flex;
+
+    padding: 50px 10px;
+    padding-bottom: 20px;
+  }
+
+  .map__scroll-indicator {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    transition: background-color 0.3s;
+  }
+
+  .dot.active {
+    background-color: orange;
+  }
+
+  .map__carousel {
+    display: flex;
+    gap: 85px;
+  }
+
+  .map__svg {
+    max-width: 70px;
+  }
+
+  .map__svg-photographer {
+    max-width: 70px;
+    margin-top: -20px;
+  }
+
+  .map__span {
+    font-size: 16px;
+  }
+
+  .map__span-answer {
+    font-size: 14px;
+  }
+
+  .map__span-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 20px;
+  }
+
+  .map__wrapper-photographer {
+    display: flex;
+    gap: 10px;
+  }
+
+  .map__span-photographer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .map__btn {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
   }
 }
