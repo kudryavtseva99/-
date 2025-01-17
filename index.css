@@ -1048,11 +1048,17 @@ label {
     font-size: 18px;
   }
 
+  .date__btn-wrapper {
+    display: block;
+  }
+
   .date__btn-mobile {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    display: block;
+    padding: 10px 15px;
+  }
+
+  .photoshoot__text {
+    font-size: 13px;
   }
 
   .date__price-wrapper {
