@@ -623,11 +623,11 @@ a {
 
   transition: opacity 0.4s, visibility 0.4s;
 }
-
+/* 
 .modal.open {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 .modal__window {
   max-width: 350px;
@@ -635,13 +635,13 @@ a {
   border-radius: 3px;
   background-color: #ffffff;
 
-  transform: scale(0);
-  transition: transform 0.8s;
+  /* transform: scale(0);
+  transition: transform 0.8s; */
 }
 
-.modal.open .modal__window {
+/* .modal.open .modal__window {
   transform: scale(1);
-}
+} */
 
 .modal__btn-wrapper {
   display: flex;
@@ -1332,5 +1332,21 @@ label {
   .footer__info-text {
     display: inline-block;
     margin-top: 10px;
+  }
+
+  /* Модальное окно моб версия */
+  .modal__window {
+    max-width: 230px;
+    padding: 20px 15px;
+    border-radius: 3px;
+    background-color: #ffffff;
+  }
+
+  .modal__btn {
+    padding: 15px 35px;
+  }
+
+  .card__expiry-cvv {
+    display: block;
   }
 }
