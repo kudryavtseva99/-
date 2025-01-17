@@ -47,6 +47,18 @@
   display: none;
 }
 
+.social__line-mobile {
+  display: none;
+}
+
+.card__mobile {
+  display: none;
+}
+
+.footer__info-mobile {
+  display: none;
+}
+
 body {
   min-height: 600px;
   font-family: Montserrat;
@@ -1245,7 +1257,7 @@ label {
     font-weight: 500;
   }
 
-  .btn__svg {
+  .btn__svg-deckstop {
     display: none;
   }
 
@@ -1257,5 +1269,68 @@ label {
   .feedback__btn {
     gap: 7px;
     margin-bottom: 40px;
+  }
+  .footer {
+    background-color: #ffffff;
+  }
+
+  .footer .container {
+    padding-bottom: 30px;
+  }
+
+  .footer__wrapper {
+    justify-content: space-between;
+    gap: 0;
+    padding-bottom: 0;
+    margin-bottom: 35px;
+  }
+
+  .header__logo {
+    max-width: 100px;
+  }
+
+  .social__media-svg {
+    max-width: 150px;
+  }
+
+  .social__line-mobile {
+    display: block;
+    border: 0.5px solid #b3b3b3;
+    margin-bottom: 25px;
+  }
+
+  .card__mobile {
+    display: block;
+  }
+
+  .card {
+    max-width: 45px;
+  }
+
+  .footer__info {
+    display: none;
+  }
+
+  .social__media-deckstop {
+    display: none;
+  }
+
+  .social__media-btn {
+    font-size: 18px;
+  }
+
+  .btn__svg {
+    max-width: 20px;
+  }
+
+  .footer__info-mobile {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .footer__info-text {
+    display: inline-block;
+    margin-top: 10px;
   }
 }
